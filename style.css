@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    background-color: black;
+    flex: 1 0 auto;
+    width: 960px;
+    height: 960px;
+    gap: 2px;
+    margin: 2px;
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    flex: auto;
+    justify-content: space-around;
+    gap: 2px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    gap: 2px;
+}
